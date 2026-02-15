@@ -1,0 +1,97 @@
+
+#home_img{
+    width: 100%;
+    margin-top:12%;
+    
+}
+#tytle ,#tytle2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 350%;
+}
+#tytle2{
+ color: gray;
+ font-size: 250%;
+ margin-bottom: 10%;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.sample{
+    width: 23%;
+}
+#title_about,
+.abouot{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#title_about{
+    margin-top: 10%;
+    font-size: 400%;
+    color: rgb(219, 96, 87);
+    margin-bottom: 0;
+}
+.abouot{
+    color: black;
+    opacity: 0.7;
+    font-size: 120%;
+}
+.abouot:nth-child(3){
+    color: rgb(219, 96, 87);
+    font-size: 200%;
+
+}
+#about_maim{
+    margin-top: 0;
+    
+}
+#links_prices{
+    background-image: url(images/homehome.jpg);
+    margin-top: 10%;
+    background-size: 100% 400%;
+}
+#p_price{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+.link_prices{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.pictureHome{
+    width: 320%;
+    height: 420%;
+    margin: auto;
+    background-size:10%,20% ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes homeImg{
+0%{background-image: url(images/cust1.PNG);}
+20%{background-image: url(images/cust2.PNG);}
+40%{background-image: url(images/cust5.PNG);}
+60%{background-image: url(images/cust3.PNG);}
+8%{background-image: url(images/cust4.PNG);}
+}    
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
